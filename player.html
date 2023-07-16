@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>선수단</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/favicon-16x16.png"
+    />
+    <script src="script/jquery-3.6.4.js"></script>
+    <script defer src="script/main.js"></script>
+    <script defer src="script/gnbmo.js"></script>
+    <script defer src="script/player.js"></script>
+    <script
+      src="https://kit.fontawesome.com/c12878d3ba.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="inner">
+        <h1 class="logo">
+          <a href="index.html">
+            <img src="images/LG logo.png" alt="lg트윈스 메인로고" />
+          </a>
+        </h1>
+        <nav class="gnbWrap">
+          <div class="Bggnb"></div>
+          <ul id="gnb">
+            <li>
+              <a href="#">트윈스</a>
+              <ul class="sub">
+                <li><a href="introduce.html">구단소개</a></li>
+                <li><a href="twinsNews.html">트윈스뉴스</a></li>
+                <li><a href="mainnotice.html">공지&이벤트</a></li>
+                <li><a href="homefield.html">홈구장</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">팀</a>
+              <ul class="sub">
+                <li><a href="coach.html">코칭스태프</a></li>
+                <li><a href="player.html">선수단</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">팬</a>
+              <ul class="sub">
+                <li><a href="community.html">자유게시판</a></li>
+                <li><a href="youtube.html">트윈스비디오</a></li>
+                <li><a href="photo.html">트윈스포토</a></li>
+                <li><a href="cheersong.html">응원가</a></li>
+                <li><a href="join.html">회원가입</a></li>
+                <li>
+                  <a
+                    href="https://www.ticketlink.co.kr/sports/baseball/59#reservation"
+                    target="_blink"
+                    >티켓예매</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+        <!-- 햄버거 버튼 -->
+        <a href="#" class="btnCall">
+          <span></span>
+        </a>
+        <!-- 모바일 메뉴 -->
+        <nav class="menuMo">
+          <ul class="gnbMo">
+            <li>
+              <a href="#">트윈스</a>
+              <ul class="sub">
+                <li><a href="introduce.html">구단소개</a></li>
+                <li><a href="twinsNews.html">트윈스뉴스</a></li>
+                <li><a href="mainnotice.html">공지&이벤트</a></li>
+                <li><a href="homefield.html">홈구장</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">팀</a>
+              <ul class="sub">
+                <li><a href="coach.html">코칭스태프</a></li>
+                <li><a href="player.html">선수단</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">팬</a>
+              <ul class="sub">
+                <li><a href="community.html">자유게시판</a></li>
+                <li><a href="youtube.html">트윈스비디오</a></li>
+                <li><a href="photo.html">트윈스포토</a></li>
+                <li><a href="cheersong.html">응원가</a></li>
+                <li><a href="join.html">회원가입</a></li>
+                <li>
+                  <a
+                    href="https://www.ticketlink.co.kr/sports/baseball/59#reservation"
+                    target="_blink"
+                    >티켓예매</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div class="content player">
+      <div class="inner">
+        <h1>Player <span>선수단</span></h1>
+      </div>
+      <ul>
+        <li class="on"><a href="*">전체</a></li>
+        <li><a href=".pitcher">투수</a></li>
+        <li><a href=".catcher">포수</a></li>
+        <li><a href=".infielder">내야수</a></li>
+        <li><a href=".outfielder">외야수</a></li>
+      </ul>
+      <section>
+        <!-- 투수 -->
+        <article class="pitcher">
+          <img
+            src="images/player/KANGHYOJONG.jpg"
+            alt="강효종"
+            title="강효종"
+          />
+          <div>
+            <h1>59</h1>
+            <h2>강효종</h2>
+            <span>Kang Hyo Jong</span>
+            <p>투수/우투우타</p>
+          </div>
+        </article>
+        <article class="pitcher">
+          <img src="images/player/GOUSUCK.jpg" alt="고우석" title="고우석" />
+          <div>
+            <h1>19</h1>
+            <h2>고우석</h2>
+            <span>Go Woo Suk</span>
+            <p>투수/우투우타</p>
+          </div>
+        </article>
+        <article class="outfielder">
+          <img src="images/player/GWONDONG.jpg" alt="권동혁" title="권동혁" />
+          <div>
+            <h1>68</h1>
+            <h2>권동혁</h2>
+            <span>Kwon Dong Hyeok</span>
+            <p>외야수/우투우타</p>
+          </div>
+        </article>
+        <article class="catcher">
+          <img src="images/player/KIMKIYEON.jpg" alt="김기연" title="김기연" />
+          <div>
+            <h1>12</h1>
+            <h2>김기연</h2>
+            <span>Kim Ki Yeon</span>
+            <p>포수/우투우타</p>
+          </div>
+        </article>
+        <article class="pitcher">
+          <img
+            src="images/player/KIMDAEHYEON.jpg"
+            alt="김대현"
+            title="김대현"
+          />
+          <div>
+            <h1>34</h1>
+            <h2>김대현</h2>
+            <span>Kim Dae Hyeon</span>
+            <p>투수/우투우타</p>
+          </div>
+        </article>
+        <article class="pitcher">
+          <img src="images/player/KIMDONGGYU.jpg" alt="김동규" title="김동규" />
+          <div>
+            <h1>64</h1>
+            <h2>김동규</h2>
+            <span>Kim Dong Gyu</span>
+            <p>투수/우투우타</p>
+          </div>
+        </article>
+        <article class="infielder">
+          <img
+            src="images/player/KIMMINSEONG.jpg"
+            alt="김민성"
+            title="김민성"
+          />
+          <div>
+            <h1>16</h1>
+            <h2>김민성</h2>
+            <span>Kim Min Seong</span>
+            <p>내야수/우투우타</p>
+          </div>
+        </article>
+        <article class="catcher">
+          <img src="images/player/KIMBUMSUK.jpg" alt="김범석" title="김범석" />
+          <div>
+            <h1>44</h1>
+            <h2>김범석</h2>
+            <span>Kim Beom Seok</span>
+            <p>포수/우투우타</p>
+          </div>
+        </article>
+        <article class="pitcher">
+          <img
+            src="images/player/kimyeongjun.jpg"
+            alt="김영준"
+            title="김영준"
+          />
+          <div>
+            <h1>35</h1>
+            <h2>김영준</h2>
+            <span>Kim Young Jun</span>
+            <p>투수/우투우타</p>
+          </div>
+        </article>
+        <article class="pitcher">
+          <img
+            src="images/player/kimyooyeong.jpg"
+            alt="김유영"
+            title="김유영"
+          />
+          <div>
+            <h1>0</h1>
+            <h2>김유영</h2>
+            <span>Kim Yoo Yeong</span>
+            <p>투수/좌투좌타</p>
+          </div>
+        </article>
+        <article class="pitcher">
+          <img src="images/player/kimyoonsik.jpg" alt="김윤식" title="김윤식" />
+          <div>
+            <h1>47</h1>
+            <h2>김윤식</h2>
+            <span>Kim Yun Sik</span>
+            <p>투수/좌투좌타</p>
+          </div>
+        </article>
+        <article class="infielder">
+          <img
+            src="images/player/Kimjooseong.jpg"
+            alt="김주성"
+            title="김주성"
+          />
+          <div>
+            <h1>5</h1>
+            <h2>김주성</h2>
+            <span>Kim Ju Sung</span>
+            <p>내야수/우투우타</p>
+          </div>
+        </article>
+        <article class="pitcher">
+          <img src="images/player/Kimjoowan.jpg" alt="김주완" title="김주완" />
+          <div>
+            <h1>40</h1>
+            <h2>김주완</h2>
+            <span>Kim Joo Wan</span>
+            <p>투수/좌투좌타</p>
+          </div>
+        </article>
+        <article class="pitcher">
+          <img
+            src="images/player/Kimjinseong.jpg"
+            alt="김진성"
+            title="김진성"
+          />
+          <div>
+            <h1>42</h1>
+            <h2>김진성</h2>
+            <span>Kim Jin Seong</span>
+            <p>투수/우투우타</p>
+          </div>
+        </article>
+        <article class="outfielder">
+          <img
+            src="images/player/KIMHYEONSOO.jpg"
+            alt="김현수"
+            title="김현수"
+          />
+          <div>
+            <h1>22</h1>
+            <h2>김현수</h2>
+            <span>Kim Hyeon Soo</span>
+            <p>외야수/우투좌타</p>
+          </div>
+        </article>
+        <article class="infielder">
+          <img
+            src="images/player/MOONBOGYEONG.jpg"
+            alt="문보경"
+            title="문보경"
+          />
+          <div>
+            <h1>2</h1>
+            <h2>문보경</h2>
+            <span>Moon Bo Gyeong</span>
+            <p>내야수/우투좌타</p>
+          </div>
+        </article>
+        <article class="outfielder">
+          <img src="images/player/MOONSUNGJU.jpg" alt="문성주" title="문성주" />
+          <div>
+            <h1>8</h1>
+            <h2>문성주</h2>
+            <span>Moon Sung Ju</span>
+            <p>외야수/좌투좌타</p>
+          </div>
+        </article>
+        <article class="catcher">
+          <img
+            src="images/player/PARKDONGWON.jpg"
+            alt="박동원"
+            title="박동원"
+          />
+          <div>
+            <h1>27</h1>
+            <h2>박동원</h2>
+            <span>Park Dong Won</span>
+            <p>포수/우투우타</p>
+          </div>
+        </article>
+        <article class="pitcher">
+          <img
+            src="images/player/ParkMyeongGeun.jpg"
+            alt="박명근"
+            title="박명근"
+          />
+          <div>
+            <h1>39</h1>
+            <h2>박명근</h2>
+            <span>Park Myeong Guen</span>
+            <p>투수/우투우타</p>
+          </div>
+        </article>
+        <article class="outfielder">
+          <img src="images/player/Parkhaemin.jpg" alt="박해민" title="박해민" />
+          <div>
+            <h1>17</h1>
+            <h2>박해민</h2>
+            <span>Park Hae Min</span>
+            <p>외야수/우투좌타</p>
+          </div>
+        </article>
+        <article class="pitcher">
+          <img src="images/player/BAEJAEJOON.jpg" alt="배재준" title="배재준" />
+          <div>
+            <h1>36</h1>
+            <h2>배재준</h2>
+            <span>Bae Jae Jun</span>
+            <p>투수/우투우타</p>
+          </div>
+        </article>
+        <article class="pitcher">
+          <img
+            src="images/player/BAEKSENOGHYEN.jpg"
+            alt="백승현"
+            title="백승현"
+          />
+          <div>
+            <h1>61</h1>
+            <h2>백승현</h2>
+            <span>Baek Seong Hyeon</span>
+            <p>투수/우투우타</p>
+          </div>
+        </article>
+        <article class="infielder">
+          <img
+            src="images/player/SEOGUNCHANG.jpg"
+            alt="서건창"
+            title="서건창"
+          />
+          <div>
+            <h1>14</h1>
+            <h2>서건창</h2>
+            <span>Seo Gun Chang</span>
+            <p>내야수/우투좌타</p>
+          </div>
+        </article>
+        <article class="pitcher">
+          <img
+            src="images/player/sungdonghyeon.jpg"
+            alt="성동현"
+            title="성동현"
+          />
+          <div>
+            <h1>58</h1>
+            <h2>성동현</h2>
+            <span>Seong Dong Hyeon</span>
+            <p>투수/우투우타</p>
+          </div>
+        </article>
+        <article class="pitcher">
+          <img
+            src="images/player/sonjooyeong.jpg"
+            alt="손주영"
+            title="손주영"
+          />
+          <div>
+            <h1>29</h1>
+            <h2>손주영</h2>
+            <span>Son Ju Yeong</span>
+            <p>투수/좌투좌타</p>
+          </div>
+        </article>
+        <article class="infielder">
+          <img src="images/player/sonhoyeong.jpg" alt="손호영" title="손호영" />
+          <div>
+            <h1>24</h1>
+            <h2>손호영</h2>
+            <span>Son Ho Young</span>
+            <p>내야수/우투우타</p>
+          </div>
+        </article>
+        <article class="infielder">
+          <img
+            src="images/player/songdaehyeon.jpg"
+            alt="송대현"
+            title="송대현"
+          />
+          <div>
+            <h1>63</h1>
+            <h2>송대현</h2>
+            <span>Song Dae Hyeon</span>
+            <p>내야수/우투우타</p>
+          </div>
+        </article>
+        <article class="pitcher">
+          <img src="images/player/songenbomb.jpg" alt="송은범" title="송은범" />
+          <div>
+            <h1>46</h1>
+            <h2>송은범</h2>
+            <span>Song Eun Beom</span>
+            <p>투수/우투우타</p>
+          </div>
+        </article>
+        <article class="infielder">
+          <img src="images/player/songchani.jpg" alt="송찬의" title="송찬의" />
+          <div>
+            <h1>66</h1>
+            <h2>송찬의</h2>
+            <span>Song Chan Eui</span>
+            <p>내야수/우투우타</p>
+          </div>
+        </article>
+        <article class="outfielder">
+          <img src="images/player/sinminjae.jpg" alt="신민재" title="신민재" />
+          <div>
+            <h1>4</h1>
+            <h2>신민재</h2>
+            <span>Sin Min Jae</span>
+            <p>외야수/우투좌타</p>
+          </div>
+        </article>
+        <article class="outfielder">
+          <img src="images/player/Aninkhoon.jpg" alt="안익훈" title="안익훈" />
+          <div>
+            <h1>15</h1>
+            <h2>안익훈</h2>
+            <span>An Ik Hoon</span>
+            <p>외야수/좌투좌타</p>
+          </div>
+        </article>
+        <article class="pitcher">
+          <img src="images/player/ohsukju.jpg" alt="오석주" title="오석주" />
+          <div>
+            <h1>57</h1>
+            <h2>오석주</h2>
+            <span>Oh Suk Ju</span>
+            <p>투수/우투우타</p>
+          </div>
+        </article>
+        <article class="infielder">
+          <img src="images/player/austindean.jpg" alt="오스틴" title="오스틴" />
+          <div>
+            <h1>23</h1>
+            <h2>오스틴</h2>
+            <span>Austin James Dean</span>
+            <p>내야수/우투우타</p>
+          </div>
+        </article>
+        <article class="infielder">
+          <img src="images/player/ohjihwan.jpg" alt="오지환" title="오지환" />
+          <div>
+            <h1>10</h1>
+            <h2>오지환</h2>
+            <span>Oh Ji Hwan</span>
+            <p>내야수/우투좌타</p>
+          </div>
+        </article>
+        <article class="pitcher">
+          <img
+            src="images/player/yooyeongchan.jpg"
+            alt="유영찬"
+            title="유영찬"
+          />
+          <div>
+            <h1>54</h1>
+            <h2>유영찬</h2>
+            <span>Yoo Yeong Chan</span>
+            <p>투수/우투우타</p>
+          </div>
+        </article>
+        <article class="pitcher">
+          <img src="images/player/Yoonhosol.jpg" alt="윤호솔" title="윤호솔" />
+          <div>
+            <h1>28</h1>
+            <h2>윤호솔</h2>
+            <span>Yoon Ho Sol</span>
+            <p>투수/우투우타</p>
+          </div>
+        </article>
+        <article class="pitcher">
+          <img src="images/player/leeminho.jpg" alt="이민호" title="이민호" />
+          <div>
+            <h1>26</h1>
+            <h2>이민호</h2>
+            <span>Lee Min Ho</span>
+            <p>투수/우투우타</p>
+          </div>
+        </article>
+        <article class="pitcher">
+          <img src="images/player/leesanggyu.jpg" alt="이상규" title="이상규" />
+          <div>
+            <h1>48</h1>
+            <h2>이상규</h2>
+            <span>Lee Sang Gyu</span>
+            <p>투수/우투우타</p>
+          </div>
+        </article>
+        <article class="pitcher">
+          <img
+            src="images/player/leesangyeung.jpg"
+            alt="이상영"
+            title="이상영"
+          />
+          <div>
+            <h1>55</h1>
+            <h2>이상영</h2>
+            <span>Lee Sang Yeong</span>
+            <p>투수/좌투좌타</p>
+          </div>
+        </article>
+        <article class="pitcher">
+          <img src="images/player/leewoochan.jpg" alt="이우찬" title="이우찬" />
+          <div>
+            <h1>37</h1>
+            <h2>이우찬</h2>
+            <span>Lee Woo Chan</span>
+            <p>투수/좌투좌타</p>
+          </div>
+        </article>
+        <article class="infielder">
+          <img src="images/player/leejaewon.jpg" alt="이재원" title="이재원" />
+          <div>
+            <h1>52</h1>
+            <h2>이재원</h2>
+            <span>Lee Jae Won</span>
+            <p>내야수/우투우타</p>
+          </div>
+        </article>
+        <article class="pitcher">
+          <img
+            src="images/player/leejungyong.jpg"
+            alt="이정용"
+            title="이정용"
+          />
+          <div>
+            <h1>31</h1>
+            <h2>이정용</h2>
+            <span>Lee Jung Yong</span>
+            <p>투수/우투우타</p>
+          </div>
+        </article>
+        <article class="infielder">
+          <img
+            src="images/player/leejoohyeng.jpg"
+            alt="이주형"
+            title="이주형"
+          />
+          <div>
+            <h1>53</h1>
+            <h2>이주형</h2>
+            <span>Lee Ju Hyeong</span>
+            <p>내야수/우투좌타</p>
+          </div>
+        </article>
+        <article class="outfielder">
+          <img src="images/player/leejunseo.jpg" alt="이준서" title="이준서" />
+          <div>
+            <h1>60</h1>
+            <h2>이준서</h2>
+            <span>Lee Jun Seo</span>
+            <p>외야수/좌투좌타</p>
+          </div>
+        </article>
+        <article class="pitcher">
+          <img src="images/player/leejigang.jpg" alt="이지강" title="이지강" />
+          <div>
+            <h1>50</h1>
+            <h2>이지강</h2>
+            <span>Lee Ji Gang</span>
+            <p>투수/우투우타</p>
+          </div>
+        </article>
+        <article class="pitcher">
+          <img src="images/player/imjungwoo.jpg" alt="임정우" title="임정우" />
+          <div>
+            <h1>20</h1>
+            <h2>임정우</h2>
+            <span>Lim Jung Woo</span>
+            <p>투수/우투우타</p>
+          </div>
+        </article>
+        <article class="pitcher">
+          <img src="images/player/imchangyu.jpg" alt="임찬규" title="임찬규" />
+          <div>
+            <h1>1</h1>
+            <h2>임찬규</h2>
+            <span>Lim Chan Gyu</span>
+            <p>투수/우투우타</p>
+          </div>
+        </article>
+        <article class="pitcher">
+          <img
+            src="images/player/jungwooyeong.jpg"
+            alt="정우영"
+            title="정우영"
+          />
+          <div>
+            <h1>18</h1>
+            <h2>정우영</h2>
+            <span>Jung Woo Young</span>
+            <p>투수/우투우타</p>
+          </div>
+        </article>
+        <article class="infielder">
+          <img
+            src="images/player/jungjoohyen.jpg"
+            alt="정주현"
+            title="정주현"
+          />
+          <div>
+            <h1>7</h1>
+            <h2>정주현</h2>
+            <span>Jung Ju Hyeon</span>
+            <p>내야수/우투우타</p>
+          </div>
+        </article>
+        <article class="pitcher">
+          <img src="images/player/jowontae.jpg" alt="조원태" title="조원태" />
+          <div>
+            <h1>49</h1>
+            <h2>조원태</h2>
+            <span>Cho Won Tae</span>
+            <p>투수/좌투좌타</p>
+          </div>
+        </article>
+        <article class="pitcher">
+          <img src="images/player/jinhaesoo.jpg" alt="진해수" title="진해수" />
+          <div>
+            <h1>21</h1>
+            <h2>진해수</h2>
+            <span>Jin Hae Soo</span>
+            <p>투수/좌투좌타</p>
+          </div>
+        </article>
+        <article class="pitcher">
+          <img src="images/player/chaejisun.jpg" alt="채지선" title="채지선" />
+          <div>
+            <h1>43</h1>
+            <h2>채지선</h2>
+            <span>Chae Ji Seon</span>
+            <p>투수/우투좌타</p>
+          </div>
+        </article>
+        <article class="pitcher">
+          <img
+            src="images/player/choidonghwan.jpg"
+            alt="최동환"
+            title="최동환"
+          />
+          <div>
+            <h1>13</h1>
+            <h2>최동환</h2>
+            <span>Choi Dong Hwan</span>
+            <p>투수/우투우타</p>
+          </div>
+        </article>
+        <article class="outfielder">
+          <img
+            src="images/player/choiminchang.jpg"
+            alt="최민창"
+            title="최민창"
+          />
+          <div>
+            <h1>38</h1>
+            <h2>최민창</h2>
+            <span>Choi Min Chang</span>
+            <p>외야수/좌투좌타</p>
+          </div>
+        </article>
+        <article class="pitcher">
+          <img
+            src="images/player/choisunghoon.jpg"
+            alt="최성훈"
+            title="최성훈"
+          />
+          <div>
+            <h1>56</h1>
+            <h2>최성훈</h2>
+            <span>Choi Sung Hoon</span>
+            <p>투수/좌투좌타</p>
+          </div>
+        </article>
+        <article class="infielder">
+          <img
+            src="images/player/choihyeonjoon.jpg"
+            alt="최현준"
+            title="최현준"
+          />
+          <div>
+            <h1>67</h1>
+            <h2>최현준</h2>
+            <span>Choi Hyun Jun</span>
+            <p>내야수/우투좌타</p>
+          </div>
+        </article>
+        <article class="pitcher">
+          <img src="images/player/kelly.jpg" alt="켈리" title="켈리" />
+          <div>
+            <h1>3</h1>
+            <h2>켈리</h2>
+            <span>Casey Kelly</span>
+            <p>투수/우투우타</p>
+          </div>
+        </article>
+        <article class="pitcher">
+          <img src="images/player/plutko.jpg" alt="플럿코" title="플럿코" />
+          <div>
+            <h1>45</h1>
+            <h2>플럿코</h2>
+            <span>Adam Plutko</span>
+            <p>투수/우투우타</p>
+          </div>
+        </article>
+        <article class="pitcher">
+          <img src="images/player/hamdukju.jpg" alt="함덕주" title="함덕주" />
+          <div>
+            <h1>11</h1>
+            <h2>함덕주</h2>
+            <span>Ham Deok Ju</span>
+            <p>투수/좌투좌타</p>
+          </div>
+        </article>
+        <article class="catcher">
+          <img src="images/player/heodohwan.jpg" alt="허도환" title="허도환" />
+          <div>
+            <h1>30</h1>
+            <h2>허도환</h2>
+            <span>Heo Do Hwan</span>
+            <p>포수/우투우타</p>
+          </div>
+        </article>
+        <article class="outfielder">
+          <img src="images/player/hongchanki.jpg" alt="홍창기" title="홍창기" />
+          <div>
+            <h1>51</h1>
+            <h2>홍창기</h2>
+            <span>Hong Chang Ki</span>
+            <p>외야수/우투좌타</p>
+          </div>
+        </article>
+        <article class="pitcher">
+          <img src="images/player/SongSengki.jpg" alt="송승기" title="송승기" />
+          <div>
+            <h1>M</h1>
+            <h2>송승기</h2>
+            <span>Song Seong Ki</span>
+            <p>투수/좌투좌타</p>
+          </div>
+        </article>
+        <article class="infielder">
+          <img
+            src="images/player/leeyoungbin.jpg"
+            alt="이영빈"
+            title="이영빈"
+          />
+          <div>
+            <h1>M</h1>
+            <h2>이영빈</h2>
+            <span>Lee Young Bin</span>
+            <p>내야수/우투좌타</p>
+          </div>
+        </article>
+        <article class="pitcher">
+          <img
+            src="images/player/heojunhyeok.jpg"
+            alt="허준혁"
+            title="허준혁"
+          />
+          <div>
+            <h1>M</h1>
+            <h2>허준혁</h2>
+            <span>Heo Jun Hyuk</span>
+            <p>투수/우투우타</p>
+          </div>
+        </article>
+        <article class="pitcher">
+          <img
+            src="images/player/choiyoungha.jpg"
+            alt="최용하"
+            title="최용하"
+          />
+          <div>
+            <h1>M</h1>
+            <h2>최용하</h2>
+            <span>Choi Yong Ha</span>
+            <p>투수/우투우타</p>
+          </div>
+        </article>
+        <article class="catcher">
+          <img src="images/player/leejoohyen.jpg" alt="이주헌" title="이주헌" />
+          <div>
+            <h1>M</h1>
+            <h2>이주헌</h2>
+            <span>Lee Ju Heon</span>
+            <p>포수/우투우타</p>
+          </div>
+        </article>
+        <article class="pitcher">
+          <img src="images/player/leejihoon.jpg" alt="이지훈" title="이지훈" />
+          <div>
+            <h1>M</h1>
+            <h2>이지훈</h2>
+            <span>Lee Ji Hoon</span>
+            <p>투수/우투우타</p>
+          </div>
+        </article>
+        <article class="infielder">
+          <img
+            src="images/player/koobonhyeok.jpg"
+            alt="구본혁"
+            title="구본혁"
+          />
+          <div>
+            <h1>M</h1>
+            <h2>구본혁</h2>
+            <span>Gu Bon Hyeok</span>
+            <p>내야수/우투우타</p>
+          </div>
+        </article>
+        <article class="pitcher">
+          <img
+            src="images/player/limjunhyeong.jpg"
+            alt="임준형"
+            title="임준형"
+          />
+          <div>
+            <h1>M</h1>
+            <h2>임준형</h2>
+            <span>Lim Jun Hyeong</span>
+            <p>투수/좌투좌타</p>
+          </div>
+        </article>
+      </section>
+    </div>
+
+    <footer>
+      <div class="inner">
+        <ul class="footerSns">
+          <li><img src="images/sns2.png" alt="풋터 sns탭" /></li>
+        </ul>
+        <div class="footerText">
+          <p>
+            (주)엘지스포츠 사업자등록번호 : 120-81-57558 통신판매업신고번호 :
+            2016-서울송파-0646 <br />
+            서울특별시 송파구 올림픽로 25(잠실동, 종합운동장내) 대표이사 :
+            김인석
+          </p>
+          <span>©LG Sports.LTD</span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

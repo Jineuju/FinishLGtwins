@@ -1,0 +1,136 @@
+footer {
+  width: 100%;
+  height: 300px;
+  position: relative;
+  background-color: #333;
+
+  .inner {
+    position: absolute;
+    top: 80px;
+    left: 32%;
+    text-align: center;
+
+    .footerSns {
+      width: 100%;
+      height: 100%;
+      position: relative;
+      margin-bottom: 40px;
+
+      li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+
+    .footerText {
+      p {
+        font: 20px/1.3 "SeoulHangangM";
+        padding-bottom: 20px;
+        color: #eee;
+      }
+      span {
+        font: bold 22px/1 "TheJamsil5Bold";
+        color: #eee;
+      }
+    }
+  }
+}
+@media screen and (max-width: 1440px) {
+  footer {
+    .inner {
+      left: 25%;
+    }
+  }
+}
+@media screen and (max-width: 1197px) {
+  footer {
+    .inner {
+      left: 21%;
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  footer {
+    .inner {
+      left: 21%;
+      .footerText {
+        p {
+          font: 16px/1.3 "SeoulHangangM";
+        }
+        span {
+          font: bold 20px/1 "TheJamsil5Bold";
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  footer {
+    .inner {
+      left: 12%;
+      .footerText {
+        p {
+          font: 16px/1.3 "SeoulHangangM";
+        }
+        span {
+          font: bold 20px/1 "TheJamsil5Bold";
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 625px) {
+  footer {
+    .inner {
+      top: 60px;
+      left: 0;
+
+      .footerSns {
+        li {
+          img {
+            width: 50vw;
+          }
+        }
+      }
+
+      .footerText {
+        p {
+          font: 17px/1.3 "SeoulHangangM";
+          padding: 10px 20px;
+        }
+        span {
+          font: bold 22px/1 "TheJamsil5Bold";
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 425px) {
+  footer {
+    .inner {
+      top: 60px;
+      left: 0;
+
+      .footerSns {
+        li {
+          img {
+            width: 250px;
+          }
+        }
+      }
+
+      .footerText {
+        p {
+          font: 14px/1.3 "SeoulHangangM";
+          padding: 10px 20px;
+        }
+        span {
+          font: bold 22px/1 "TheJamsil5Bold";
+        }
+      }
+    }
+  }
+}
