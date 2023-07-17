@@ -4,45 +4,6 @@
   position: relative;
   background-color: #fff;
 
-  a {
-    width: 70px;
-    height: 70px;
-    .plusBtn {
-      display: flex;
-      position: absolute;
-      top: 40px;
-      right: 350px;
-      width: 70px;
-      height: 70px;
-      border: 3px solid #333;
-      border-radius: 50%;
-      cursor: pointer;
-      display: none;
-
-      &:before {
-        content: "";
-        display: block;
-        width: 45px;
-        height: 3px;
-        background-color: #333;
-        position: absolute;
-        top: 49%;
-        transform: rotate(0deg) translateX(25%);
-      }
-
-      &:after {
-        content: "";
-        display: block;
-        width: 45px;
-        height: 3px;
-        background-color: #333;
-        position: absolute;
-        top: 49%;
-        transform: rotate(90deg) translateY(-10px);
-      }
-    }
-  }
-
   .inner {
     position: absolute;
     top: 50px;
@@ -103,67 +64,82 @@
           right: 17.5vw;
           display: flex;
           padding: 20px;
-
-          img {
+          a{
             width: 170px;
-            transition: 0.5s;
+            height: 100px;
+            img {
+              width: 100%;
+              height: 100%;
+            }
           }
           div {
+            width: 350px;
+            height: 100px;
             h3 {
               font: bold 18px/1.2 "SeoulHangangM";
-              margin-left: 110px;
-              margin-top: 10px;
               margin-bottom: 10px;
+              margin-left: 10px;
             }
             span {
-              margin-left: 110px;
               font: 15px/1 "SeoulHangangM";
+              margin-left: 10px;
             }
           }
         }
         &:nth-child(3) {
           position: absolute;
-          top: 340px;
-          right: 21.8vw;
+          top: 35vh;
+          right: 17.5vw;
           display: flex;
           padding: 20px;
 
-          img {
+          a{
             width: 170px;
-            transition: 0.5s;
+            height: 100px;
+            img {
+              width: 100%;
+              height: 100%;
+            }
           }
           div {
+            width: 350px;
+            height: 100px;
             h3 {
               font: bold 18px/1.2 "SeoulHangangM";
-              margin-left: 110px;
               margin-bottom: 10px;
+              margin-left: 10px;
             }
             span {
-              margin-left: 110px;
+              margin-left: 10px;
               font: 15px/1 "SeoulHangangM";
             }
           }
         }
         &:nth-child(4) {
           position: absolute;
-          bottom: 8vh;
-          right: 19vw;
+          bottom: 7vh;
+          right: 17.5vw;
           display: flex;
           padding: 20px;
 
-          img {
+          a{
             width: 170px;
-            transition: 0.5s;
+            height: 100px;
+            img {
+              width: 100%;
+              height: 100%;
+            }
           }
           div {
+            width: 350px;
+            height: 100px;
             h3 {
               font: bold 18px/1.2 "SeoulHangangM";
-              margin-left: 110px;
-              margin-top: 10px;
+              margin-left: 10px;
               margin-bottom: 10px;
             }
             span {
-              margin-left: 110px;
+              margin-left: 10px;
               font: 15px/1 "SeoulHangangM";
             }
           }
@@ -192,40 +168,40 @@
             width: 38vw;
           }
           &:nth-child(2) {
-            right: 12vw;
+            right: 10vw;
 
             div {
               h3 {
-                font: bold 15px/1.2 "맑은 고딕";
+                font: bold 15px/1.2 "SeoulHangangM";
               }
               span {
-                font: 13px/1 "arial";
+                font: 13px/1 "SeoulHangangM";
               }
             }
           }
           &:nth-child(3) {
-            right: 17.5vw;
-            top: 37vh;
+            right: 10vw;
+            top: 35vh;
             div {
               h3 {
-                font: bold 15px/1.2 "맑은 고딕";
+                font: bold 15px/1.2 "SeoulHangangM";
               }
               span {
-                font: 13px/1 "arial";
+                font: 13px/1 "SeoulHangangM";
               }
             }
           }
           &:nth-child(4) {
             position: absolute;
-            bottom: 7vh;
-            right: 14vw;
+            bottom: 8vh;
+            right: 10vw;
 
             div {
               h3 {
-                font: bold 15px/1.2 "맑은 고딕";
+                font: bold 15px/1.2 "SeoulHangangM";
               }
               span {
-                font: 13px/1 "arial";
+                font: 13px/1 "SeoulHangangM";
               }
             }
           }
@@ -257,35 +233,35 @@
 
             div {
               h3 {
-                font: bold 13px/1.2 "맑은 고딕";
+                font: bold 15px/1.2 "SeoulHangangM";
               }
               span {
-                font: 13px/1 "arial";
+                font: 13px/1 "SeoulHangangM";
               }
             }
           }
           &:nth-child(3) {
-            right: 9vw;
+            right: 5vw;
             div {
               h3 {
-                font: bold 15px/1.2 "맑은 고딕";
+                font: bold 15px/1.2 "SeoulHangangM";
               }
               span {
-                font: 13px/1 "arial";
+                font: 13px/1 "SeoulHangangM";
               }
             }
           }
           &:nth-child(4) {
             position: absolute;
-            bottom: 7vh;
-            right: 3.8vw;
+            bottom: 8vh;
+            right: 5vw;
 
             div {
               h3 {
-                font: bold 15px/1.2 "맑은 고딕";
+                font: bold 15px/1.2 "SeoulHangangM";
               }
               span {
-                font: 13px/1 "arial";
+                font: 13px/1 "SeoulHangangM";
               }
             }
           }
@@ -317,45 +293,44 @@
             width: 35vw;
 
             h3 {
-              font: bold 25px/1.4 "맑은 고딕";
+              font: bold 25px/1.4 "SeoulHangangM";
             }
             span {
-              font: 17px/1 "arial";
+              font: 17px/1 "SeoulHangangM";
             }
             a {
               img {
                 width: 36vw;
-                height: 27vh;
+                height: 33vh;
               }
             }
           }
           &:nth-child(2) {
-            right: 5vw;
+            right: -3vw;
 
             div {
               h3 {
-                font: bold 13px/1.2 "맑은 고딕";
+                font: bold 15px/1.2 "SeoulHangangM";
               }
               span {
-                font: 13px/1 "arial";
+                font: 13px/1 "SeoulHangangM";
               }
             }
           }
           &:nth-child(3) {
-            right: 9vw;
-            top: 37vh;
+            right: -3vw;
           }
           &:nth-child(4) {
             position: absolute;
-            bottom: 7vh;
-            right: 4vw;
+            bottom: 8vh;
+            right: -3vw;
 
             div {
               h3 {
-                font: bold 15px/1.2 "맑은 고딕";
+                font: bold 15px/1.2 "SeoulHangangM";
               }
               span {
-                font: 13px/1 "arial";
+                font: 13px/1 "SeoulHangangM";
               }
             }
           }
@@ -384,59 +359,53 @@
         li {
           &:nth-child(1) {
             left: 7vw;
-            width: 51vw;
+            width: 44vw;
 
             h3 {
-              font: bold 25px/1.4 "맑은 고딕";
+              font: bold 25px/1.4 "SeoulHangangM";
             }
             span {
-              font: 17px/1 "arial";
+              font: 17px/1 "SeoulHangangM";
             }
             a {
               img {
-                width: 51vw;
+                width: 38vw;
                 height: 34vh;
               }
             }
           }
           &:nth-child(2) {
-            right: 20vw;
+            right: -30vw;
 
             div {
               h3 {
-                font: bold 13px/1.2 "맑은 고딕";
                 display: none;
               }
               span {
-                font: 13px/1 "arial";
                 display: none;
               }
             }
           }
           &:nth-child(3) {
-            right: 20vw;
-            top: 37vh;
+            right: -30vw;
+            top: 35vh;
             div {
               h3 {
-                font: bold 13px/1.2 "맑은 고딕";
                 display: none;
               }
               span {
-                font: 13px/1 "arial";
                 display: none;
               }
             }
           }
           &:nth-child(4) {
             bottom: 8vh;
-            right: 20vw;
+            right: -30vw;
             div {
               h3 {
-                font: bold 13px/1.2 "맑은 고딕";
                 display: none;
               }
               span {
-                font: 13px/1 "arial";
                 display: none;
               }
             }
@@ -462,8 +431,8 @@
         display: none;
       }
       p {
-        left: 0;
-        font: 14px/1 "맑은 고딕";
+        left: 18vw;
+        font: 14px/1 "SeoulHangangM";
       }
     }
     .videoList {
@@ -471,63 +440,87 @@
         li {
           &:nth-child(1) {
             left: 3vw;
-            width: 53vw;
+            width: 54vw;
 
             h3 {
-              font: bold 25px/1.4 "맑은 고딕";
+              font: bold 25px/1.4 "SeoulHangangM";
             }
             span {
-              font: 17px/1 "arial";
+              font: 17px/1 "SeoulHangangM";
             }
             a {
               img {
                 width: 46vw;
-                height: 31vh;
+                height: 33vh;
               }
             }
           }
           &:nth-child(2) {
-            right: 23vw;
-            margin-bottom: 1px;
-
-            div {
-              h3 {
-                font: bold 13px/1.2 "맑은 고딕";
-                display: none;
-              }
-              span {
-                font: 13px/1 "arial";
-                display: none;
-              }
-            }
+            right: -50vw;
           }
           &:nth-child(3) {
-            right: 23vw;
-            top: 37vh;
-            div {
-              h3 {
-                font: bold 13px/1.2 "맑은 고딕";
-                display: none;
-              }
-              span {
-                font: 13px/1 "arial";
-                display: none;
-              }
-            }
+            right: -50vw;
+            top: 35vh;
           }
           &:nth-child(4) {
             bottom: 8vh;
-            right: 23vw;
-            div {
-              h3 {
-                font: bold 13px/1.2 "맑은 고딕";
-                display: none;
-              }
-              span {
-                font: 13px/1 "arial";
-                display: none;
+            right: -50vw;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 500px) {
+  #video {
+    height: 74vh;
+    a {
+      .plusBtn {
+        top: 10vh;
+        right: 5vw;
+        display: none;
+      }
+    }
+    .inner {
+      left: 7vw;
+      span {
+        display: none;
+      }
+      p {
+        left: 13vw;
+        font: 14px/1 "SeoulHangangM";
+      }
+    }
+    .videoList {
+      ul {
+        li {
+          &:nth-child(1) {
+            left: 3vw;
+            width: 54vw;
+
+            h3 {
+              font: bold 25px/1.4 "SeoulHangangM";
+            }
+            span {
+              font: 17px/1 "SeoulHangangM";
+            }
+            a {
+              img {
+                width: 46vw;
+                height: 29.5vh;
               }
             }
+          }
+          &:nth-child(2) {
+            right: -70vw;
+          }
+          &:nth-child(3) {
+            right: -70vw;
+            top: 35vh;
+          }
+          &:nth-child(4) {
+            bottom: 8vh;
+            right: -70vw;
           }
         }
       }
@@ -550,8 +543,8 @@
         display: none;
       }
       p {
-        left: 0;
-        font: 14px/1 "맑은 고딕";
+        left: 5vw;
+        font: 14px/1 "SeoulHangangM";
       }
     }
     .videoList {
@@ -562,57 +555,50 @@
             width: 51vw;
 
             h3 {
-              font: bold 25px/1.4 "맑은 고딕";
+              font: bold 25px/1.4 "SeoulHangangM";
             }
             span {
-              font: 17px/1 "arial";
+              font: 17px/1 "SeoulHangangM";
             }
             a {
               img {
                 width: 41vw;
-                height: 28vh;
+                height: 26vh;
               }
             }
           }
           &:nth-child(2) {
-            right: 23vw;
-            margin-bottom: 1px;
+            right: -80vw;
 
             div {
               h3 {
-                font: bold 13px/1.2 "맑은 고딕";
                 display: none;
               }
               span {
-                font: 13px/1 "arial";
                 display: none;
               }
             }
           }
           &:nth-child(3) {
-            right: 23vw;
-            top: 33vh;
+            right: -80vw;
+            top: 37.5vh;
             div {
               h3 {
-                font: bold 13px/1.2 "맑은 고딕";
                 display: none;
               }
               span {
-                font: 13px/1 "arial";
                 display: none;
               }
             }
           }
           &:nth-child(4) {
-            bottom: 14vh;
-            right: 23vw;
+            bottom: 4vh;
+            right: -80vw;
             div {
               h3 {
-                font: bold 13px/1.2 "맑은 고딕";
                 display: none;
               }
               span {
-                font: 13px/1 "arial";
                 display: none;
               }
             }
