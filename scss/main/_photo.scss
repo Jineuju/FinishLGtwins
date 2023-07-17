@@ -132,12 +132,13 @@
     outline: none;
     background-color: #fff;
     // padding: 20px 120px;
-    font: 18px/30px "SeoulHangangM";
+    font: 18px/7vh "SeoulHangangM";
     cursor: pointer;
     border-radius: 20px;
     transition: 0.3s;
+    text-align: center;
 
-    &:hover {
+    &:hover{
       background-color: #aaa;
       color: #fff;
     }

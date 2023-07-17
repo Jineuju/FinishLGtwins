@@ -2265,10 +2265,11 @@ main #photo #more {
   border: none;
   outline: none;
   background-color: #fff;
-  font: 18px/30px "SeoulHangangM";
+  font: 18px/7vh "SeoulHangangM";
   cursor: pointer;
   border-radius: 20px;
   transition: 0.3s;
+  text-align: center;
 }
 main #photo #more:hover {
   background-color: #aaa;
